@@ -1,0 +1,393 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #141414;
+
+  font-family: 'raleway' sans-serif;
+}
+
+
+.btttn {
+  display: inline;
+  font-size: 18px;
+
+  border: 1px solid aliceblue;
+  border-radius: 50px;
+  color: aliceblue;
+  background-color: black;
+  margin-top: 12px;
+  padding-top: 20px;
+  padding-left: 16px;
+  padding-bottom: 20px;
+  padding-right: 16px;
+}
+.btttn:hover {
+  background-color: rgb(59, 100, 80);
+  cursor: pointer;
+}
+
+
+
+
+
+
+.wanderlost {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-left: 0;
+  padding-top: 0;
+  padding-left: 20px;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+
+.preserve {
+  margin: 5px;
+  padding: 0;
+  line-height: 0px;
+  letter-spacing: 0;
+}
+
+
+h1 {
+  font-weight: 100;
+  font-size: auto;
+  color: rgb(247, 219, 188);
+  padding: 30px 30px;
+  margin: 0;
+  letter-spacing: 7px;
+}
+h2 {
+  margin: 10px;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+p {
+  font-size: 1rem;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-indent: 20px;
+}
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+.preserve {
+  font-size: 4.5rem;
+  line-height: 1.6;
+}
+
+
+
+
+
+.bento-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bento-item {
+  height: 250px;
+  margin: 8px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.a {
+  background-image: url('market-morocco.jpg');
+  background-size: cover;
+  background-position: center;  
+  background-repeat: no-repeat;
+  text-align: bottom;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.a > div > p {
+  color: rgb(199, 187, 171);
+  margin: 0 4%;
+}
+.a p:first-of-type {
+  color: rgb(0, 255, 255);
+}
+.a p:last-of-type {
+  color: rgb(233, 225, 215);
+}
+.a > div > h2 {
+  color: white;
+  padding: 0 10px;
+  margin: 0 6%;
+}
+
+
+.b {
+  background-image: url('wedding-morocco.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: bottom;
+  color: #faebd7;
+  padding: 20px 2px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+
+}
+
+
+
+.c {
+  /*background-image: url('amanohashidate.jpg');*/
+  background-color: rgb(233, 235, 199);
+  min-width: 170px;
+  max-width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+.c > p {
+  color: rgb(167, 156, 141);
+  font-size: 16px;
+  margin: 0;
+}
+.c > h2 {
+  font-size: 18px;
+  margin: 0 8px;
+  letter-spacing: 1px;
+}
+
+
+.d {
+  background-color: cadetblue;
+  background-image: url('hoballoon.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: bottom;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: end;
+}
+.d > p {
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  margin: 0 8px;
+}
+.d > h2 {
+  font-size: 20px;
+  margin: 0 8px;
+  letter-spacing: 1px;
+}
+
+
+
+.e {
+ width: 200px;
+ aspect-ratio: 2 / 1;
+ background-color: rgb(59, 100, 80);
+/*
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;   */
+}
+.e > p {
+  color: rgb(224, 224, 224);
+  font-size: 24px;
+  margin: 0 8px;
+/*
+  align-self: flex-end;    */
+}
+.e > h2 {
+  color: white;
+  font-size: 40px;
+  margin: 1px 7px;
+  letter-spacing: 1px;
+}
+.pre {
+  margin-bottom: 0;
+  padding: 0;
+  font-family: 'raleway' sans-serif;
+}
+
+
+.f {
+  background-color: white;
+}
+.g {
+  background-color: white;
+}
+.h {
+  background-color: white;
+}                                      
+.i {
+  background-color: white;
+}
+.j {
+  background-color: white;
+}
+.k {
+  background-color: white;
+}
+.l {
+  background-color: white;
+}
+.tajmahal {
+  background-image: url('tajmahal.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.filler {
+  background-color: rgba(233, 182, 124, 0.966);
+}
+
+
+.filler1 {
+  background-color: rgb(48, 95, 75);
+  color: antiquewhite;
+  text-align: start;
+  padding: 20px 2px;
+}
+.filler1 > p {
+  color: rgb(199, 187, 171);
+  margin: 0;
+}
+.filler1 > h2 {
+  padding: 0 10px;
+}
+
+
+.filler2 {
+  background-image: url('petra.jpg');
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: end;
+}
+.filler2 > p {
+  color: rgb(175, 165, 151);
+  margin: 0;
+  padding: 0 10px;
+}
+.filler2 p:first-of-type {
+  padding-top: 10px;
+  color: rgb(255, 0, 191);
+}
+.filler2 > h2 {
+  color: rgb(48, 95, 75);
+  padding: 0 10px;
+  margin: 0;
+}
+
+
+.filler3 {
+  background-image: url('tokyo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  text-align: end;
+}
+.filler3 > p {
+  color: rgb(136, 136, 136);
+  margin: 0;
+  padding: 15px 0;
+}
+.filler3 > h2 {
+  padding: 0 10px;
+}
+
+
+.filler4 {
+  background-color: cornflowerblue;
+  background-image: url('greece.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+  text-align: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+
+  aspect-ratio: 1 / 1;
+}
+.filler4 > p {
+  color: rgb(6, 176, 255);
+  margin: 0 4%;
+  text-align: left;
+}
+.filler4 > h2 {
+  color: rgb(0, 110, 255);
+  margin: 0 6%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.w1 {
+  flex: 1 1 calc(10.66% - 16px);
+}
+.w2 {
+  flex: 2 1 calc(27.33% - 16px);
+}
+.w3 {
+  flex: 3 1 calc(40% - 16px);
+} 
+.w4 {
+  flex: 4 1 calc(80% - 16px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cc {
+  aspect-ratio: 1 / 1;
+  background-color: cornsilk;
+}
+
+
+
+
+
+
